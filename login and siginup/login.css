@@ -1,0 +1,54 @@
+
+body{
+    background-image: url("/workk.png");
+    background-size: cover;
+    display: flex;
+    align-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.container {
+  width: 50%;
+ margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  position: centre;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+}
+
+
+
+.log {
+  display: block;
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+ 
+}
+#login {
+  display: block;
+  width: 40%;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 05px;
+  border-radius: 5px;
+  background-color: #0faa48;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+#login:hover {
+  background-color: #3e8e41;
+}
+#login:active {
+  background-color: #2e6e31;
+}
+#login:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
